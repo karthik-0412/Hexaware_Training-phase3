@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.cont {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+.cont input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.2s ease;
+}
+
+.cont input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.cont button {
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.cont button:hover {
+  background: #357abd;
+}
+
+h1 {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+h2, h3 {
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.users-list {
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.users-list h3 {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.users-list h3:last-child {
+  border-bottom: none;
+}
